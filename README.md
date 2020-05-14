@@ -10,7 +10,7 @@ It requires registration credentials with the EUR-Lex Webservice. Any expert sea
 
 English document is selected by default. But the language can be changed by selecting a two-position isocode as optional parameter.
 
-For example, the following code prints information about each item:
+For example, the following code prints information about each item of the Legislation collection:
 
 ```python
 from eurlex import EUR_Lex
