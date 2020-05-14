@@ -36,7 +36,7 @@ If you want to execute an expert search query for a selected language, you need 
 ```python
 from eurlex import EUR_Lex
 
-for work in EUR_Lex.query(username="nberaben", password="BL5QVWpizYj", q="DN = 32015R0062", lg="fr"):
+for work in EUR_Lex.query(username="username", password="password", q="DN = 32015R0062", lg="fr"):
     print()
     print('CELEX:', work.celex)
     print('type:', work.type)
