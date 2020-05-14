@@ -33,7 +33,7 @@ for work in EUR_Lex.query(username, password):
 ```
 If you want to execute an expert search query for a selected language, you need to proceed as follow; 
 
-	python
+```python
 from eurlex import EUR_Lex
 
 for work in EUR_Lex.query(username="nberaben", password="BL5QVWpizYj", q="DN = 32015R0062"):
@@ -51,5 +51,5 @@ for work in EUR_Lex.query(username="nberaben", password="BL5QVWpizYj", q="DN = 3
         for item in manifest.items:
             print('      uri:', item.uri)
             print('      filename:', item.filename)
-			
+```			
 For the selection of language or the expert search query mode, see https://eur-lex.europa.eu/content/help/faq/intro.html
